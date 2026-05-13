@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tay Tech Insights</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4f6fb;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #4b5563;
+        --accent: #2563eb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 3rem;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      h1 {
+        margin-bottom: 0.5rem;
+      }
+
+      .subtitle {
+        color: var(--muted);
+        margin: 0;
+      }
+
+      .posts {
+        display: grid;
+        gap: 1rem;
+      }
+
+      article {
+        background: var(--card);
+        border-radius: 10px;
+        padding: 1rem 1.25rem;
+        box-shadow: 0 3px 12px rgba(17, 24, 39, 0.08);
+      }
+
+      article h2 {
+        margin: 0 0 0.25rem;
+        font-size: 1.1rem;
+      }
+
+      .tag {
+        display: inline-block;
+        font-size: 0.8rem;
+        color: var(--accent);
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      footer {
+        text-align: center;
+        color: var(--muted);
+        margin-top: 2.5rem;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Tay Tech Insights</h1>
+        <p class="subtitle">A personal blog for sharing insights on technology, productivity, and life.</p>
+      </header>
+
+      <section class="posts" aria-label="Blog posts">
+        <article>
+          <span class="tag">Technology</span>
+          <h2>What AI Means for Everyday Creators</h2>
+          <p>
+            Thoughts on using AI tools to improve writing and design workflows without losing your personal voice.
+          </p>
+        </article>
+
+        <article>
+          <span class="tag">Productivity</span>
+          <h2>Weekly Review Habits That Actually Stick</h2>
+          <p>
+            A practical weekly reflection system for planning priorities, reducing stress, and tracking meaningful progress.
+          </p>
+        </article>
+
+        <article>
+          <span class="tag">Lifestyle</span>
+          <h2>Staying Curious Across Different Topics</h2>
+          <p>
+            How reading widely and experimenting with small projects can spark better ideas and broader perspectives.
+          </p>
+        </article>
+      </section>
+
+      <footer>
+        <p>© 2026 Tay Tech Insights</p>
+      </footer>
+    </main>
+  </body>
+</html>
